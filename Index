@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms &amp; Conditions - Yanshuf BAC Calculator</title>
+    <style>
+        :root {
+            --primary: #f0a500;
+            --bg-dark: #121212;
+            --bg-card: #1e1c17;
+            --cream: #F5F5DC;
+            --cream-muted: #F5F5DCcc;
+            --border: #f0a50044;
+            --muted: #3a3527;
+            --danger: #E97451;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--cream);
+            line-height: 1.7;
+            padding: 0;
+        }
+
+        .header {
+            background-color: var(--bg-card);
+            border-bottom: 2px solid var(--border);
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: var(--cream-muted);
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 20px 80px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            color: var(--cream);
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: var(--cream-muted);
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            color: var(--cream-muted);
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .important-box {
+            background-color: var(--bg-card);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .important-box p {
+            margin-bottom: 8px;
+        }
+
+        .important-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .warning-box {
+            background-color: rgba(233, 116, 81, 0.1);
+            border: 2px solid rgba(233, 116, 81, 0.4);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .warning-box strong {
+            color: #E97451;
+        }
+
+        strong {
+            color: var(--cream);
+            font-weight: 700;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid var(--border);
+            margin: 48px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 20px;
+            border-top: 2px solid var(--border);
+            color: var(--cream-muted);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--primary);
+        }
+
+        .lang-switch {
+            text-align: center;
+            margin: 32px 0;
+        }
+
+        .lang-switch a {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.2s;
+        }
+
+        .lang-switch a:hover {
+            background-color: var(--bg-card);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 22px; }
+            h2 { font-size: 17px; }
+            .container { padding: 20px 16px 60px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Terms &amp; Conditions</h1>
+        <p class="subtitle">Yanshuf — BAC Calculator &nbsp;|&nbsp; Last Updated: March 6, 2026</p>
+    </div>
+
+    <div class="container">
+
+        <div class="lang-switch">
+            <a href="#hebrew">🇮🇱 עברית למטה</a>
+        </div>
+
+        <div class="warning-box">
+            <p><strong>CRITICAL NOTICE:</strong> Yanshuf provides rough BAC estimates for informational purposes ONLY. The results are NOT accurate, NOT medically verified, and must NEVER be relied upon to make decisions about driving, operating machinery, or any other activity. We strongly urge all users: <strong>DO NOT drink and drive. EVER.</strong> No BAC reading — whether from this app or any other device — makes it safe to drive after consuming alcohol.</p>
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, accessing, or using the Yanshuf BAC Calculator application ("the App"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, you must immediately uninstall and stop using the App.</p>
+        <p>These Terms constitute a legally binding agreement between you ("User", "you", "your") and Yanshuf ("we", "us", "our").</p>
+
+        <h2>2. Description of Service</h2>
+        <p>Yanshuf is a mobile application that provides <strong>rough estimates</strong> of Blood Alcohol Content (BAC) based on user-provided inputs including biological sex, body weight, types and quantities of alcoholic beverages consumed, and time elapsed since consumption. The App uses the Widmark formula, a widely recognized mathematical model, to produce these estimates.</p>
+
+        <div class="important-box">
+            <p><strong>The App is:</strong></p>
+            <ul>
+                <li>An informational and educational tool only</li>
+                <li>A rough estimation calculator — NOT a precision instrument</li>
+                <li>NOT a medical device or diagnostic tool</li>
+                <li>NOT a breathalyzer or blood test replacement</li>
+                <li>NOT a tool to determine fitness to drive or operate machinery</li>
+            </ul>
+        </div>
+
+        <h2>3. No Encouragement of Alcohol Consumption</h2>
+        <p>Yanshuf does <strong>not</strong> encourage, promote, endorse, or condone:</p>
+        <ul>
+            <li>The consumption of alcoholic beverages</li>
+            <li>Drinking and driving or operating any vehicle while under the influence</li>
+            <li>Excessive or binge drinking</li>
+            <li>Underage drinking</li>
+            <li>Any illegal activity related to alcohol</li>
+        </ul>
+        <p>The App is designed solely as a calculator. The presence of drink selection options in the App is for input purposes only and does not constitute a recommendation or encouragement to consume those beverages.</p>
+
+        <h2>4. Accuracy Disclaimer</h2>
+        <p>The BAC estimates provided by the App are <strong>rough approximations only</strong>. Actual BAC levels depend on numerous factors that the App cannot account for, including but not limited to:</p>
+        <ul>
+            <li>Individual metabolism and genetic factors</li>
+            <li>Food consumption before, during, or after drinking</li>
+            <li>Medications and health conditions</li>
+            <li>Hydration levels</li>
+            <li>Liver function and health status</li>
+            <li>Exact alcohol content of beverages (which varies by brand, batch, and preparation)</li>
+            <li>Rate and pattern of consumption</li>
+            <li>Body composition (muscle-to-fat ratio)</li>
+            <li>Fatigue, stress, and other physiological factors</li>
+        </ul>
+
+        <div class="warning-box">
+            <p><strong>WARNING:</strong> Even if the App displays a BAC below the legal limit, you may still be impaired and unfit to drive. Impairment begins at BAC levels well below legal limits. The ONLY safe amount of alcohol before driving is ZERO.</p>
+        </div>
+
+        <h2>5. Legal Driving Limits</h2>
+        <p>The App displays legal BAC limits for various jurisdictions (Israel, USA, UK) for informational reference only. These limits:</p>
+        <ul>
+            <li>May change without notice and may not reflect current law</li>
+            <li>Vary by jurisdiction, driver type, age, and vehicle type</li>
+            <li>Do not guarantee legal compliance even if your estimated BAC is below the displayed limit</li>
+            <li>Should not be used as the basis for any decision regarding driving</li>
+        </ul>
+        <p>It is <strong>your sole responsibility</strong> to know and comply with the laws applicable in your jurisdiction.</p>
+
+        <h2>6. Age Requirement</h2>
+        <p>The App is intended for use only by individuals who are of <strong>legal drinking age</strong> in their respective jurisdiction:</p>
+        <ul>
+            <li><strong>Israel:</strong> 18 years or older</li>
+            <li><strong>United States:</strong> 21 years or older</li>
+            <li><strong>United Kingdom:</strong> 18 years or older</li>
+        </ul>
+        <p>By using the App, you represent and warrant that you meet the minimum age requirement in your jurisdiction. If you are under the legal drinking age, you must not use this App.</p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:</p>
+        <div class="important-box">
+            <ul>
+                <li>The App is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> without warranties of any kind, whether express, implied, or statutory.</li>
+                <li>We disclaim all warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, reliability, and non-infringement.</li>
+                <li>We shall <strong>not</strong> be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the App.</li>
+                <li>We are <strong>not</strong> responsible for any decisions you make based on information provided by the App, including but not limited to decisions about driving, operating machinery, or consuming alcohol.</li>
+                <li>We are <strong>not</strong> liable for any injury, death, property damage, legal consequences, fines, or any other harm resulting from reliance on the App's estimates.</li>
+            </ul>
+        </div>
+
+        <h2>8. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless Yanshuf, its developers, officers, employees, and affiliates from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from:</p>
+        <ul>
+            <li>Your use of the App</li>
+            <li>Your violation of these Terms</li>
+            <li>Your violation of any applicable law or regulation</li>
+            <li>Any decision made based on information provided by the App</li>
+            <li>Any claim by a third party related to your use of the App</li>
+        </ul>
+
+        <h2>9. Assumption of Risk</h2>
+        <p>By using the App, you acknowledge and accept that:</p>
+        <ul>
+            <li>BAC calculations are estimates only and may be significantly inaccurate</li>
+            <li>You assume all risks associated with the consumption of alcohol</li>
+            <li>You are solely responsible for your actions, including the decision to drive or not to drive</li>
+            <li>You will not rely on the App's results to determine whether you are fit to drive or perform any activity</li>
+        </ul>
+
+        <h2>10. Intellectual Property</h2>
+        <p>All content, design, graphics, icons, code, and other materials in the App are the intellectual property of Yanshuf and are protected by applicable copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any part of the App without our prior written consent.</p>
+
+        <h2>11. Advertising</h2>
+        <p>The App displays advertisements provided by Google AdMob. By using the App, you acknowledge that:</p>
+        <ul>
+            <li>Advertisements may be displayed during your use of the App</li>
+            <li>Ad content is provided by third parties and we are not responsible for the content, accuracy, or availability of advertised products or services</li>
+            <li>Interaction with advertisements is at your own risk and subject to the advertiser's terms</li>
+        </ul>
+
+        <h2>12. Modifications to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the App after changes are posted constitutes your acceptance of the modified Terms. We encourage you to review these Terms periodically.</p>
+
+        <h2>13. Termination</h2>
+        <p>We reserve the right to terminate or suspend your access to the App at any time, without prior notice, for any reason. Upon termination, all provisions of these Terms that by their nature should survive shall survive, including but not limited to limitation of liability, indemnification, and disclaimer provisions.</p>
+
+        <h2>14. Governing Law</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the State of Israel, without regard to conflict of law principles. Any dispute arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in Israel.</p>
+
+        <h2>15. Severability</h2>
+        <p>If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that these Terms shall otherwise remain in full force and effect.</p>
+
+        <h2>16. Entire Agreement</h2>
+        <p>These Terms, together with our <a href="privacy-policy.html">Privacy Policy</a>, constitute the entire agreement between you and Yanshuf regarding the use of the App and supersede all prior agreements and understandings.</p>
+
+        <h2>17. Contact Us</h2>
+        <p>If you have questions about these Terms, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:Shiftlyapp1@gmail.com">Shiftlyapp1@gmail.com</a></p>
+
+        <hr id="hebrew">
+
+        <h1 style="color: var(--primary); text-align: center; font-size: 28px; margin-bottom: 8px; letter-spacing: 2px;">תנאי שימוש</h1>
+        <p style="text-align: center; margin-bottom: 32px;">Yanshuf — מחשבון BAC &nbsp;|&nbsp; עודכן לאחרונה: 6 במרץ 2026</p>
+
+        <div class="warning-box" dir="rtl">
+            <p><strong>הודעה קריטית:</strong> Yanshuf מספקת הערכות BAC גסות למטרות מידע בלבד. התוצאות אינן מדויקות, אינן מאומתות רפואית, ואסור בהחלט להסתמך עליהן כדי לקבל החלטות לגבי נהיגה, הפעלת מכונות, או כל פעילות אחרת. אנו קוראים בתוקף לכל המשתמשים: <strong>אל תשתו ותנהגו. לעולם לא.</strong> אף קריאת BAC — בין אם מאפליקציה זו ובין אם מכל מכשיר אחר — אינה הופכת את הנהיגה לאחר שתיית אלכוהול לבטוחה.</p>
+        </div>
+
+        <div dir="rtl">
+
+            <h2>1. קבלת תנאים</h2>
+            <p>על ידי הורדה, התקנה, גישה או שימוש באפליקציית Yanshuf BAC Calculator ("האפליקציה"), אתה מסכים להיות כפוף לתנאי שימוש אלה ("התנאים"). אם אינך מסכים לתנאים אלה, עליך להסיר מיד את האפליקציה ולהפסיק את השימוש בה.</p>
+
+            <h2>2. תיאור השירות</h2>
+            <p>Yanshuf היא אפליקציה ניידת המספקת <strong>הערכות גסות</strong> של רמת אלכוהול בדם (BAC) על סמך נתונים שהמשתמש מזין, כולל מין ביולוגי, משקל גוף, סוגי וכמויות משקאות אלכוהוליים שנצרכו, וזמן שחלף מאז הצריכה. האפליקציה משתמשת בנוסחת וידמרק, מודל מתמטי מוכר, להפקת הערכות אלה.</p>
+
+            <div class="important-box">
+                <p><strong>האפליקציה היא:</strong></p>
+                <ul>
+                    <li>כלי למידע וחינוך בלבד</li>
+                    <li>מחשבון הערכה גסה — לא מכשיר מדויק</li>
+                    <li>לא מכשיר רפואי או כלי אבחון</li>
+                    <li>לא תחליף לינשוף (מד נשיפה) או בדיקת דם</li>
+                    <li>לא כלי לקביעת כשירות לנהיגה או הפעלת מכונות</li>
+                </ul>
+            </div>
+
+            <h2>3. אין עידוד לצריכת אלכוהול</h2>
+            <p>Yanshuf <strong>אינה</strong> מעודדת, מקדמת, תומכת או מסכימה ל:</p>
+            <ul>
+                <li>צריכת משקאות אלכוהוליים</li>
+                <li>שתייה ונהיגה או הפעלת כל רכב תחת השפעת אלכוהול</li>
+                <li>שתייה מופרזת</li>
+                <li>שתיית קטינים</li>
+                <li>כל פעילות בלתי חוקית הקשורה לאלכוהול</li>
+            </ul>
+            <p>האפליקציה מתוכננת אך ורק כמחשבון. נוכחות אפשרויות בחירת משקאות באפליקציה היא למטרות קלט בלבד ואינה מהווה המלצה או עידוד לצריכת אותם משקאות.</p>
+
+            <h2>4. הצהרת אי-דיוק</h2>
+            <p>הערכות ה-BAC שמספקת האפליקציה הן <strong>אומדנים גסים בלבד</strong>. רמות BAC בפועל תלויות בגורמים רבים שהאפליקציה אינה יכולה להתחשב בהם, כולל אך לא מוגבל ל:</p>
+            <ul>
+                <li>חילוף חומרים אישי וגורמים גנטיים</li>
+                <li>צריכת מזון לפני, במהלך או אחרי השתייה</li>
+                <li>תרופות ומצבים בריאותיים</li>
+                <li>רמות הידרציה</li>
+                <li>תפקוד כבד ומצב בריאותי</li>
+                <li>תכולת אלכוהול מדויקת של המשקאות</li>
+                <li>קצב ודפוס הצריכה</li>
+                <li>הרכב גוף (יחס שריר-שומן)</li>
+                <li>עייפות, מתח וגורמים פיזיולוגיים אחרים</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>אזהרה:</strong> גם אם האפליקציה מציגה BAC מתחת למגבלה החוקית, ייתכן שעדיין אתה פגום ולא כשיר לנהיגה. הפגיעה מתחילה ברמות BAC הנמוכות בהרבה מהמגבלות החוקיות. הכמות הבטוחה היחידה של אלכוהול לפני נהיגה היא אפס.</p>
+            </div>
+
+            <h2>5. מגבלות נהיגה חוקיות</h2>
+            <p>האפליקציה מציגה מגבלות BAC חוקיות לתחומי שיפוט שונים (ישראל, ארה"ב, בריטניה) לעיון מידעי בלבד. מגבלות אלה:</p>
+            <ul>
+                <li>עשויות להשתנות ללא הודעה ועשויות שלא לשקף את החוק הנוכחי</li>
+                <li>משתנות לפי תחום שיפוט, סוג נהג, גיל וסוג רכב</li>
+                <li>אינן מבטיחות עמידה בחוק גם אם ה-BAC המוערך שלך נמוך מהמגבלה המוצגת</li>
+                <li>אין להשתמש בהן כבסיס להחלטה כלשהי בנוגע לנהיגה</li>
+            </ul>
+            <p>זוהי <strong>אחריותך הבלעדית</strong> לדעת ולציית לחוקים החלים בתחום השיפוט שלך.</p>
+
+            <h2>6. דרישת גיל</h2>
+            <p>האפליקציה מיועדת לשימוש רק על ידי אנשים שהם בגיל <strong>שתייה חוקי</strong> בתחום השיפוט שלהם:</p>
+            <ul>
+                <li><strong>ישראל:</strong> 18 שנים ומעלה</li>
+                <li><strong>ארצות הברית:</strong> 21 שנים ומעלה</li>
+                <li><strong>בריטניה:</strong> 18 שנים ומעלה</li>
+            </ul>
+            <p>על ידי שימוש באפליקציה, אתה מצהיר ומתחייב שאתה עומד בדרישת הגיל המינימלית בתחום השיפוט שלך.</p>
+
+            <h2>7. הגבלת אחריות</h2>
+            <div class="important-box">
+                <ul>
+                    <li>האפליקציה מסופקת <strong>"כמות שהיא"</strong> ו<strong>"כפי שהיא זמינה"</strong> ללא אחריות מכל סוג שהוא.</li>
+                    <li>אנו מסירים כל אחריות, כולל אך לא מוגבל לאחריות לסחירות, התאמה למטרה מסוימת, דיוק, אמינות ואי-הפרה.</li>
+                    <li>אנו <strong>לא</strong> נישא באחריות לכל נזק ישיר, עקיף, מקרי, מיוחד, תוצאתי או עונשי הנובע מהשימוש או אי-היכולת שלך להשתמש באפליקציה.</li>
+                    <li>אנו <strong>לא</strong> אחראים להחלטות שתקבל על סמך מידע שמסופק על ידי האפליקציה.</li>
+                    <li>אנו <strong>לא</strong> אחראים לכל פגיעה, מוות, נזק לרכוש, השלכות משפטיות, קנסות, או כל נזק אחר הנובע מהסתמכות על הערכות האפליקציה.</li>
+                </ul>
+            </div>
+
+            <h2>8. שיפוי</h2>
+            <p>אתה מסכים לשפות, להגן ולפטור את Yanshuf, המפתחים שלה, נושאי המשרה, העובדים והשותפים מכל תביעות, נזקים, הפסדים, התחייבויות, עלויות והוצאות הנובעים מ:</p>
+            <ul>
+                <li>השימוש שלך באפליקציה</li>
+                <li>הפרת תנאים אלה</li>
+                <li>הפרת כל חוק או תקנה</li>
+                <li>כל החלטה שהתקבלה על סמך מידע שמסופק על ידי האפליקציה</li>
+            </ul>
+
+            <h2>9. קבלת סיכון</h2>
+            <p>על ידי שימוש באפליקציה, אתה מאשר ומקבל כי:</p>
+            <ul>
+                <li>חישובי BAC הם הערכות בלבד ועשויים להיות לא מדויקים באופן משמעותי</li>
+                <li>אתה לוקח על עצמך את כל הסיכונים הקשורים לצריכת אלכוהול</li>
+                <li>אתה אחראי בלעדית לפעולותיך, כולל ההחלטה לנהוג או לא לנהוג</li>
+                <li>לא תסתמך על תוצאות האפליקציה כדי לקבוע אם אתה כשיר לנהיגה</li>
+            </ul>
+
+            <h2>10. קניין רוחני</h2>
+            <p>כל התוכן, העיצוב, הגרפיקה, האייקונים, הקוד וחומרים אחרים באפליקציה הם קניין רוחני של Yanshuf ומוגנים על ידי חוקי זכויות יוצרים, סימני מסחר וקניין רוחני אחרים.</p>
+
+            <h2>11. פרסום</h2>
+            <p>האפליקציה מציגה מודעות המסופקות על ידי Google AdMob. על ידי שימוש באפליקציה, אתה מאשר שמודעות יוצגו במהלך השימוש ושתוכן המודעות מסופק על ידי צדדים שלישיים.</p>
+
+            <h2>12. שינויים בתנאים</h2>
+            <p>אנו שומרים לעצמנו את הזכות לשנות תנאים אלה בכל עת. שינויים ייכנסו לתוקף מיד עם הפרסום. המשך השימוש באפליקציה לאחר פרסום שינויים מהווה הסכמה לתנאים המעודכנים.</p>
+
+            <h2>13. סיום</h2>
+            <p>אנו שומרים לעצמנו את הזכות לסיים או להשעות את הגישה שלך לאפליקציה בכל עת, ללא הודעה מוקדמת, מכל סיבה שהיא.</p>
+
+            <h2>14. דין חל</h2>
+            <p>תנאים אלה יפורשו בהתאם לחוקי מדינת ישראל. כל מחלוקת הנובעת מתנאים אלה תהיה כפופה לסמכות השיפוט הבלעדית של בתי המשפט בישראל.</p>
+
+            <h2>15. הפרדה</h2>
+            <p>אם הוראה כלשהי בתנאים אלה תימצא בלתי ניתנת לאכיפה או בלתי תקפה, הוראה זו תוגבל או תבוטל במידה המינימלית הנדרשת כך שתנאים אלה יישארו בתוקף מלא.</p>
+
+            <h2>16. הסכם מלא</h2>
+            <p>תנאים אלה, יחד עם <a href="privacy-policy.html">מדיניות הפרטיות</a> שלנו, מהווים את ההסכם המלא בינך לבין Yanshuf בנוגע לשימוש באפליקציה.</p>
+
+            <h2>17. יצירת קשר</h2>
+            <p>אם יש לך שאלות על תנאים אלה, אנא צור איתנו קשר:</p>
+            <p><strong>אימייל:</strong> <a href="mailto:Shiftlyapp1@gmail.com">Shiftlyapp1@gmail.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Yanshuf. All rights reserved. &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
